@@ -23,7 +23,7 @@ body {
 img {
   width: 100%;
   display: block;
-  margin: .5em;
+  margin: .25em .25em .25em .25em;
 }
 
 img:nth-child(2) {
@@ -34,7 +34,7 @@ img:last-child {
   display: none;
 }
 
-@media only screen (min-width: 25em) {
+@media only screen and (min-width: 25em) {
   img {
     width: 100%;
     display: block;
@@ -51,10 +51,10 @@ img:last-child {
 
 }
 
-@media only screen (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
 }
 
-@media only screen (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
 }
